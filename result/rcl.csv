@@ -1,0 +1,3 @@
+dataset,unseen_classes,train_class_num,detect_method,seed,T, f1_ood,r_ood,p_ood,f1_ind,r_ind,p_ind, f1,model_dir,confused_epoches,global_epoches,ce_epoches
+CLINC_OOD_full,1_oos,n,energylocal,38,1.0,76.24,74.6,77.95,89.34,89.84,89.81,89.26,./output/CLINC_OOD_full-1_oos-n-38-ce-rcl,5,10,20
+CLINC_OOD_full,1_oos,n,energylocal,39,1.0,75.34,75.0,75.68,89.17,89.31,90.1,89.08,./output/CLINC_OOD_full-1_oos-n-39-ce-rcl,5,10,20
