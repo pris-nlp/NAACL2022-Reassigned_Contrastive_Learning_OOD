@@ -141,20 +141,30 @@ Model main experiment, including:
        <tr  align="center">
         <td><b></b></td>
         <td><b></b></td>
-        <td colspan="3"><b>OOD</b></td>
-        <td colspan="3"><b>IND</b></td>
-        <td colspan="3"><b>OOD</b></td>
-        <td colspan="3"><b>IND</b></td>
+        <td colspan="2"><b>OOD</b></td>
+        <td colspan="1"><b>IND</b></td>
+        <td colspan="2"><b>OOD</b></td>
+        <td colspan="1"><b>IND</b></td>
+        <td colspan="2"><b>OOD</b></td>
+        <td colspan="1"><b>IND</b></td>
+        <td colspan="2"><b>OOD</b></td>
+        <td colspan="1"><b>IND</b></td>
        </tr>    
        <tr  align="center">
         <td><b></b></td>
         <td><b></b></td>
-        <td colspan="2"><b>F1</b></td>
-        <td colspan="2"><b>Recall</b></td>
-        <td colspan="2"><b>F1</b></td>
-        <td colspan="2"><b>Recall</b></td>
-        <td colspan="2"><b>F1</b></td>
-        <td colspan="2"><b>Recall</b></td>
+        <td colspan="1"><b>F1</b></td>
+        <td colspan="1"><b>Recall</b></td>
+        <td colspan="1"><b>F1</b></td>
+        <td colspan="1"><b>Recall</b></td>
+        <td colspan="1"><b>F1</b></td>
+        <td colspan="1"><b>Recall</b></td>
+        <td colspan="1"><b>F1</b></td>
+        <td colspan="1"><b>Recall</b></td>
+        <td colspan="1"><b>F1</b></td>
+        <td colspan="1"><b>Recall</b></td>
+        <td colspan="1"><b>F1</b></td>
+        <td colspan="1"><b>Recall</b></td>
        </tr>   
       <tr  align="center">
             <td>MSP</td>
