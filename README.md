@@ -48,14 +48,6 @@ The parameters that must be specified:
     - `test`: only predict the model with trained model
     - `both`: train model, and use the trained model to predict
 - `detect_method`, required when the mode is 'test' or 'both', specify the settings to detect ood samples, options:
-    - `msp`: using MSP for predicting
-    - `lof`: using LOF for predicting
-    - `gdaeucli`: using GDA for predicting, using lsqr for solver, and the threshold is 800 (Mahalanobis distance)
-    - `gdamaha`: using GDA for predicting, using lsqr for solver, and the threshold is automatically inferred from the training data
-    - `energylocal`: using energy for predicting
-    - `msplocal`: using LOF for predicting with adaptive class-dependent threshold
-    - `gdaeucli_local`:  using GDA for predicting, using lsqr for solver, and the threshold is 800 (Mahalanobis distance)
-    - `gdamaha_local`: using GDA for predicting, using lsqr for solver, and the threshold is automatically inferred from the training data
     - `energylocal`: using energy for predicting with adaptive class-dependent threshold
 - `model_dir`, required when the mode is 'test', specify the directory contains model file 
 - `unseen_classes`, oos
@@ -113,16 +105,10 @@ Model main experiment, including:
 ## 3. utils.py
 
 - **get_score**, get f1, f1_seen, f1_unseen result according to the confusion matrix
-- **plot_confusion_matrix**, print and plot confusion matrix
-- **confidence**, calculate mahalanobis or euclidean distance based on the confidence of each category
 - **get_test_info**, get predicting results including text,label,softmax probability, softmax prediction,softmax confidence,(if use lof) lof prediction result,(if use gda) gda mahalanobis distance, (if use gda) the gda confidence
-- **estimate_best_threshold**, automatically calculate the optimal threshold on the validation set
-- **pca_visualization**, draw feature PCA visualization (examle:./make_figures/figures/pca.png)
-- **single_class_pca**, compare euclidean and mahalanobis distances using PCA visualization (example:./make_figures/figures/distance_vs.png)
 - **log_pred_results**, Read'. / output_dir... /result.txt' file, print the result in the specified format, and convert it to the 'results.json' file.
 
 # Results
-
 <table>
        <tr  align="center">
         <td><b></b></td>
