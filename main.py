@@ -32,7 +32,7 @@ def parse_args():
     parser.add_argument("--scl_cont", action="store_true",
                         help="whether to add supervised contrastive loss")
     parser.add_argument("--rcl_cont", action="store_true",
-                        help="whether to add supervised contrastive loss")
+                        help="whether to add reassigned contrastive loss")
     parser.add_argument("--confused_pre_epoches", type=int, default=0,
                         help="Max epoches when in-domain supervised contrastive pre-training (Confused-label pair contrasting).")
     parser.add_argument("--global_pre_epoches", type=int, default=0,
@@ -361,7 +361,6 @@ if args.mode in ["train", "both"]:
     
     if args.rcl_cont:
         # Construct confused label pairs set
-
         errorpath = re.findall("(.*)-rcl",output_dir)
         print(f"loading errorpath = {errorpath}")
         error_df,_ = load_errordata(errorpath[0])
