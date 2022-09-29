@@ -90,15 +90,6 @@ Model main experiment, including:
     - SCL
     - RCL
 - Predict model
-    - msp
-    - lof
-    - gdaeucli
-    - gdamaha
-    - energy
-    - msplocal
-    - loflocal
-    - gdaeucli_local
-    - gdamaha_local
     - energylocal
     
 
