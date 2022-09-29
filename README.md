@@ -96,6 +96,7 @@ Model main experiment, including:
 ## 3. utils.py
 
 - **get_score**, get f1, f1_seen, f1_unseen result according to the confusion matrix
+- **confidence**, calculate mahalanobis or euclidean distance based on the confidence of each category
 - **get_test_info**, get predicting results including text,label,softmax probability, softmax prediction,softmax confidence,(if use lof) lof prediction result,(if use gda) gda mahalanobis distance, (if use gda) the gda confidence
 - **log_pred_results**, Read'. / output_dir... /result.txt' file, print the result in the specified format, and convert it to the 'results.json' file.
 
