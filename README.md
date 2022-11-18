@@ -258,7 +258,7 @@ Model main experiment, including:
         </tr>
         <tr  align="center">
             <td>Energy</td>
-            <td>SCP</td>                
+            <td>SCL</td>                
             <td>71.12 </td>
             <td>71.01 </td>
             <td>88.59 </td>
@@ -274,7 +274,7 @@ Model main experiment, including:
         </tr>
         <tr  align="center">
             <td>Energy</td>
-            <td>SCP</td>                
+            <td>RCL</td>                
             <td><b>74.30</b> </td>
             <td><b>72.03</b> </td>
             <td>89.56 </td>
